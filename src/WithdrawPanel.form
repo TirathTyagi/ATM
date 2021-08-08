@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="WithdrawPanel">
+  <grid id="27dc6" binding="WithPan" layout-manager="GridLayoutManager" row-count="3" column-count="3" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="20" y="20" width="859" height="640"/>
+    </constraints>
+    <properties>
+      <background color="-11901243"/>
+    </properties>
+    <border type="none" title="WITHDRAW" title-justification="2" title-position="3">
+      <font name="Dubai" size="36" style="1"/>
+      <title-color color="-16382458"/>
+    </border>
+    <children>
+      <component id="7166d" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="7" hsize-policy="7" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Fira Code Medium" size="22" style="1"/>
+          <foreground color="-16777216"/>
+          <text value="Enter The Amount to be Withdrawn"/>
+        </properties>
+      </component>
+      <component id="a620c" class="javax.swing.JTextField" binding="WithAmt">
+        <constraints>
+          <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-985857"/>
+        </properties>
+      </component>
+      <component id="4a093" class="javax.swing.JButton" binding="WithBut">
+        <constraints>
+          <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-723461"/>
+          <font name="Fira Code" size="16" style="1"/>
+          <foreground color="-16777216"/>
+          <text value="WITHDRAW"/>
+        </properties>
+      </component>
+      <component id="6afaa" class="javax.swing.JLabel" binding="WithRes">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="7" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Fira Code" size="16" style="1"/>
+          <foreground color="-16777216"/>
+          <text value="NUMBER:"/>
+        </properties>
+      </component>
+      <component id="5fac6" class="javax.swing.JTextField" binding="ErField">
+        <constraints>
+          <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="0" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-985857"/>
+        </properties>
+      </component>
+      <component id="ba8ee" class="javax.swing.JButton" binding="WithSub">
+        <constraints>
+          <grid row="1" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-723461"/>
+          <font name="Fira Code" size="16" style="1"/>
+          <foreground color="-16777216"/>
+          <text value="SUBMIT"/>
+        </properties>
+      </component>
+      <component id="d61e5" class="javax.swing.JButton" binding="button1" default-binding="true">
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-723461"/>
+          <font name="Fira Code" size="16" style="1"/>
+          <foreground color="-16777216"/>
+          <text value="BACK TO MENU"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>

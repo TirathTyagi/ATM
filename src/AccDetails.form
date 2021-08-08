@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="AccDetails">
+  <grid id="27dc6" binding="accpanel" layout-manager="GridLayoutManager" row-count="7" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="20" y="20" width="858" height="733"/>
+    </constraints>
+    <properties>
+      <background color="-11901243"/>
+    </properties>
+    <border type="none" title="ACCOUNT DETAILS" title-justification="2" title-position="3">
+      <font name="Sitka Text" size="36" style="1"/>
+      <title-color color="-16382458"/>
+    </border>
+    <children>
+      <component id="43778" class="javax.swing.JLabel" binding="userdet">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="7" hsize-policy="7" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <enabled value="true"/>
+          <font name="Fira Code" size="20" style="1"/>
+          <foreground color="-16777216"/>
+          <text value="USERNAME"/>
+        </properties>
+      </component>
+      <component id="e3c6b" class="javax.swing.JLabel" binding="atmdet">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="7" hsize-policy="7" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Fira Code" size="20" style="1"/>
+          <foreground color="-16777216"/>
+          <text value="ATM PIN"/>
+        </properties>
+      </component>
+      <component id="470b5" class="javax.swing.JLabel" binding="passdet">
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="7" hsize-policy="7" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Fira Code" size="20" style="1"/>
+          <foreground color="-16777216"/>
+          <text value="PASSWORD"/>
+        </properties>
+      </component>
+      <component id="72f0f" class="javax.swing.JLabel" binding="emdet">
+        <constraints>
+          <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="7" hsize-policy="7" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Fira Code" size="20" style="1"/>
+          <foreground color="-16777216"/>
+          <text value="E-MAIL ID"/>
+        </properties>
+      </component>
+      <component id="6e0a3" class="javax.swing.JLabel" binding="phonedet">
+        <constraints>
+          <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="7" hsize-policy="7" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Fira Code" size="20" style="1"/>
+          <foreground color="-16777216"/>
+          <text value="PHONE NUMBER"/>
+        </properties>
+      </component>
+      <component id="c0484" class="javax.swing.JLabel" binding="accbal">
+        <constraints>
+          <grid row="5" column="0" row-span="1" col-span="1" vsize-policy="7" hsize-policy="7" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Fira Code" size="20" style="1"/>
+          <foreground color="-16777216"/>
+          <text value="ACCOUNT BALANCE"/>
+        </properties>
+      </component>
+      <component id="6ae3d" class="javax.swing.JButton" binding="Checkdet">
+        <constraints>
+          <grid row="6" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-459781"/>
+          <font name="Fira Code" size="16" style="1"/>
+          <foreground color="-16777216"/>
+          <text value="CHECK DETAILS"/>
+        </properties>
+      </component>
+      <component id="7db09" class="javax.swing.JLabel" binding="userout">
+        <constraints>
+          <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="7" hsize-policy="7" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <foreground color="-16777216"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="4a288" class="javax.swing.JLabel" binding="atmout">
+        <constraints>
+          <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="7" hsize-policy="7" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <foreground color="-16777216"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="bdf71" class="javax.swing.JLabel" binding="passout">
+        <constraints>
+          <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="7" hsize-policy="7" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <foreground color="-16777216"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="af9f1" class="javax.swing.JLabel" binding="emailout">
+        <constraints>
+          <grid row="3" column="1" row-span="1" col-span="1" vsize-policy="7" hsize-policy="7" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <foreground color="-16777216"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="a5be3" class="javax.swing.JLabel" binding="phoneout">
+        <constraints>
+          <grid row="4" column="1" row-span="1" col-span="1" vsize-policy="7" hsize-policy="7" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <foreground color="-16777216"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="c552e" class="javax.swing.JLabel" binding="accout">
+        <constraints>
+          <grid row="5" column="1" row-span="1" col-span="1" vsize-policy="7" hsize-policy="7" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <foreground color="-16777216"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="cdc25" class="javax.swing.JButton" binding="button1" default-binding="true">
+        <constraints>
+          <grid row="6" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-723461"/>
+          <font name="Fira Code" size="16" style="1"/>
+          <foreground color="-16777216"/>
+          <text value="BACK TO MENU"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>
